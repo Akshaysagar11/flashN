@@ -29,7 +29,7 @@ srtbtn.addEventListener("click",()=>{
         if(started === false){
             started = true;
             askUser(counter++);
-            h2.innerHTML = Game started, Player Name: <i>${players[counter-1]}<i>;
+            h2.innerHTML = `Game started, Player Name: <i>${players[counter-1]}<i>`;
             removeStartbtn();
             next();
             np++;
@@ -42,7 +42,7 @@ document.addEventListener("keypress",()=>{
     if(started === false){
         started = true;
         askUser(counter++);
-        h2.innerHTML = Game started, Player Name: <i>${players[counter-1]}<i>;
+        h2.innerHTML = `Game started, Player Name: <i>${players[counter-1]}<i>`;
         removeStartbtn();
         next();
         np++;
@@ -72,7 +72,7 @@ function next(){
 
     let idx = Math.floor(Math.random() * 3)+1;
     let randColor = btns[idx];
-    let randBtn = document.querySelector(.${randColor});
+    let randBtn = document.querySelector(`.${randColor}`);
     gameFlash(randBtn);
     gameSeq.push(randColor);
 }
@@ -119,7 +119,7 @@ function checkAns(idx){
         setTimeout(()=>{
             body.classList.remove("errorRed");
         },800);
-        h2.innerHTML = Game Over! <br> ${players[0]}'s score is <b>${score}<b> <br>click start to play again;
+        h2.innerHTML = `Game Over! <br> ${players[0]}'s score is <b>${score}<b> <br>click start to play again`;
         reset();
         srtbtn.classList.remove("classbtnremove");
 
@@ -137,3 +137,4 @@ function reset(){
 function addon(score){
     return Math.floor(Math.random() * score%10);
 }
+
