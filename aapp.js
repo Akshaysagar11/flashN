@@ -119,7 +119,7 @@ function checkAns(idx){
         setTimeout(()=>{
             body.classList.remove("errorRed");
         },800);
-        h2.innerHTML = `Game Over! <br> ${players[0]}'s score is <b>${score}<b> <br>click start to play again`;
+        h2.innerHTML = `Game Over! <br> ${players[0]}'s score is <b>${score}<b> click start to play again`;
         reset();
         srtbtn.classList.remove("classbtnremove");
 
