@@ -24,7 +24,7 @@ body{
 }
 
 .red{
-background-image:("oneee.jpg");
+background-image:url("oneee.jpg");
 background-size:cover;
 no-repeat;
     cursor:pointer;
@@ -34,7 +34,7 @@ no-repeat;
 }
 
 .blue{
-background-image:("threee.jpg");
+background-image:url("threee.jpg");
 background-size:cover;
 no-repeat;
     cursor:pointer;
@@ -51,7 +51,7 @@ no-repeat;
 }
 
 .gold{
-background-image:("fourr.jpg");
+background-image:url("fourr.jpg");
 background-size:cover;
 no-repeat;
     cursor:pointer;
