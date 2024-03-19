@@ -80,6 +80,12 @@ no-repeat;
 .gameFlash{
     border:3px solid #00FFFF;
 }
+
+
+
+.classbtnremove{
+    display: none;
+}
 .startbtn{
     height: 30px;
     width: 50px;
@@ -89,8 +95,3 @@ no-repeat;
 cursor:pointer;
 }
 
-
-
-.classbtnremove{
-    display: none;
-}
