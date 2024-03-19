@@ -29,7 +29,7 @@ srtbtn.addEventListener("click",()=>{
         if(started === false){
             started = true;
             askUser(counter++);
-            h2.innerHTML = Game started, Player Name: <i>${players[counter-1]}<i>;
+            h2.innerHTML = Game started Player Name: <i>${players[counter-1]}<i>;
             removeStartbtn();
             next();
             np++;
