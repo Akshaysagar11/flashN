@@ -63,17 +63,21 @@ no-repeat;
     background-color: #fff;
 }*/
 
-.userFlash{
+/* .userFlash{
     background-color: rgb(160, 246, 227);
-}
+} */
 
 .errorRed{
     background-color: red;
 }
+
 .gameFlash{
     border:3px solid #00FFFF;
 }
 
+.userFlash{
+    transform: scale(1.08);
+}
 
 .classbtnremove{
     display: none;
