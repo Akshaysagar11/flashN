@@ -1,8 +1,8 @@
 body{
     text-align: center;
-background:transparent;
-background-image:url("bimg.jpg");
-backdrop-filter:blur(3px);
+    background:transparent;
+    background-image:url("bimg.jpg");
+    backdrop-filter:blur(3px);
 }
 
 .footer{
@@ -13,7 +13,7 @@ backdrop-filter:blur(3px);
     text-align: right;
 }
 .header{
-background-color:#00FFFF;
+    background-color:#00FFFF;
 }
 
 
@@ -31,38 +31,34 @@ background-color:#00FFFF;
 }
 
 .red{
-background-image:url("oneee.jpg");
-background-size:cover;
-no-repeat;
+    background-image:url("oneee.jpg");
+    background-size:cover;
+    no-repeat;
     cursor:pointer;
-
-
-        background-color: #aa3e3e;
+    background-color: #aa3e3e;
 }
 
 .blue{
-background-image:url("threee.jpg");
-background-size:cover;
-no-repeat;
-    cursor:pointer;
-
+    background-image:url("threee.jpg");
+    background-size:cover;
+    no-repeat;
+    cursor:pointer;        
     background-color:  #204b5b;
 }
 
 .voilet{
-background-image:url("twoo.jpg");
-background-size:cover;
-no-repeat;
+    background-image:url("twoo.jpg");
+    background-size:cover;
+    no-repeat;
     cursor:pointer;
     background-color: #581f58;
 }
 
 .gold{
-background-image:url("fourr.jpg");
-background-size:cover;
-no-repeat;
+    background-image:url("fourr.jpg");
+    background-size:cover;
+    no-repeat;
     cursor:pointer;
-
     background-color:  #938922;
 }
 
@@ -91,5 +87,5 @@ no-repeat;
     border: 3px solid black;
     border-radius: 15%;
     margin: 2.5rem;
-cursor:pointer;
+    cursor:pointer;
 }
