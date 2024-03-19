@@ -137,4 +137,3 @@ function reset(){
 function addon(score){
     return Math.floor(Math.random() * score%10);
 }
-
